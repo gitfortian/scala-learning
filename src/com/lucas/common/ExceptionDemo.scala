@@ -7,8 +7,6 @@ import scala.io.Source
 
 object ExceptionDemo {
   def main(args: Array[String]): Unit = {
-
-    println("========================")
     try {
       val f = Source.fromFile("resources/2.txt", "UTF-8")
       f.getLines().foreach(x => println(x))
