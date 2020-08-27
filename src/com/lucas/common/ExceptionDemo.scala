@@ -6,6 +6,8 @@ import scala.io.Source
 
 
 object ExceptionDemo {
+
+  // git git git git hit
   def main(args: Array[String]): Unit = {
     try {
       val f = Source.fromFile("resources/2.txt", "UTF-8")
